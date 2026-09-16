@@ -1,0 +1,52 @@
+# Build output (see root Makefile: clean target removes bin/ and build/)
+/bin/
+/build/
+
+# Compiled objects and libraries
+*.o
+*.lo
+*.la
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.gch
+*.pch
+
+# Make dependency files
+*.d
+
+# LV2 TTL generator helper (built by dpf/utils/lv2-ttl-generator)
+/dpf/utils/lv2_ttl_generator
+/dpf/utils/lv2_ttl_generator.dSYM/
+
+# Generated plugin bundles
+*.lv2/
+*.vst3/
+*.vst/
+*.clap
+
+# Generated TTL / manifest output
+/dpf/utils/*.ttl
+*.ttl.bak
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Editor / OS cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.kdev4/
+.vs/
+.vscode/
+
+# CMake out-of-source artifacts (if CMake builds are used)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake

@@ -1,0 +1,15 @@
+{
+  "dpf": {
+    "project": true,
+    "description": "The finest BBD delay emulation the Scandinavian peninsula has to offer.",
+    "maker": "SporePrintDSP",
+    "license": "ISC",
+    "midi_input": 0,
+    "midi_output": 0,
+    "plugin_formats": [
+      "vst3"
+    ],
+    "enable_ui": true
+  },
+  "nosimd": false
+}
