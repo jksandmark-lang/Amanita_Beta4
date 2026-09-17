@@ -116,7 +116,7 @@ public:
           fImgBackground(Artwork::BG_makoData, Artwork::BG_makoWidth, Artwork::BG_makoHeight, kImageFormatBGRA),
           fResizeHandle(this)
     {
-        setGeometryConstraints(DISTRHO_UI_DEFAULT_WIDTH, DISTRHO_UI_DEFAULT_HEIGHT, true, true);
+        setGeometryConstraints(DISTRHO_UI_DEFAULT_WIDTH, DISTRHO_UI_DEFAULT_HEIGHT, true, true, false);
 
         fNanoContext = new SharedNanoContext(getWindow());
 
