@@ -22,7 +22,7 @@ plugin: dgl
 
 ifneq ($(CROSS_COMPILING),true)
 gen: plugin lv2_ttl_generator
-	@$(CURDIR)/dpf/utils/generate-ttl.sh
+	@"$(CURDIR)/dpf/utils/generate-ttl.sh"
 
 lv2_ttl_generator:
 	$(MAKE) -C dpf/utils/lv2-ttl-generator
